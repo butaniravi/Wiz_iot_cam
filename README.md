@@ -1,31 +1,31 @@
 # Wiz_iot_cam
-Wiz IoT Cam using W5300 TOE and 8051 limited resource uC
-Project Description :  Goal of this project is to show capability of W5300 TOE chip to interface it with low cost (0.2$) limited resources 8051 core based MG82F6D16 uC and develop IoT based camera to capture and transfer image via MQTT using onboard ARDUCAM 2MP camera to Wizcam android application running anywhere in world. (Without having luxury to use Arduino IDE and 3rd party libraries for W5300, Arducam OV2640 and MQTT :) )
-
-Components used in project : 
+Wiz IoT Cam using W5300 TOE and 8051 limited resource uC<br>
+Project Description : <br> Goal of this project is to show capability of W5300 TOE chip to interface it with low cost (0.2$) limited resources 8051 core based MG82F6D16 uC and develop IoT based camera to capture and transfer image via MQTT using onboard ARDUCAM 2MP camera to Wizcam android application running anywhere in world. (Without having luxury to use Arduino IDE and 3rd party libraries for W5300, Arducam OV2640 and MQTT :) )
+<br>
+Components used in project : <br>
 
 W5300 Module WIZ830MJ  1 Pcs
 MG82F6D16 (8051 Core) Low cost 0.2$ Microcontroller 1 Pcs
 Arducam Mini 2MP SPI Camera  1 Pcs
 Buzzer 3V3  1 Pcs
 Misc (AM1117 3.3V LDO, Resistors, Capacitors, pushbutton, connectors, LEDs)
-Software Used in Project : 
+<br>Software Used in Project : <br>
 
 MG82F6D16 firmware build using Keil C51 and also supported SDCC open source 8051 compiler.
 MG82F6D16 SDK
 Megawin 8051 COM Port ISP to upload firmware via UART to MG82F6D16.
 Cool Term used as UART Debug Console
 Processing for Android used to develop Host Android Applications
-Deliverables (everything required for replicate this project are under CC-BY opensource license and attached in documents section of this project):
+Deliverables (everything required for replicate this project are under CC-BY opensource license and attached in documents section of this project):<br>
 
 MG82F6D16 uC firmware for Project  
 Android Application Source code and APK file 
 Schematic and Hardware interfacing guide
 Challenges and solution:
 
-Challenges
+Challenges<br>
 
-Solution / Hacks
+Solution / Hacks<br>
 
 Interface W5300 ToE module with MG82F6D16 8051 uC having only 24 GPIO
 
